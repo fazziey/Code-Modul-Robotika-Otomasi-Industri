@@ -30,7 +30,7 @@ void loop() {
   digitalWrite(motorPin2, LOW);
   digitalWrite(motorPin3, LOW);
   digitalWrite(motorPin4, LOW);
-  delay(100);
+  delay(timeDelay);
 
   // Langkahkan motor maju selangkah lagi
   digitalWrite(motorPin1, LOW);
